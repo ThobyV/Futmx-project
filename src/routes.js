@@ -3,7 +3,8 @@ import { Link, Route,location, Switch } from "@hyperapp/router"
 
 
 import { App } from './views/containers/App'
-import { Page } from './components/Page'
+import { Home } from './components/Home'
+import { Message } from './components/Message'
 
 export const view = ( state, actions ) => 
 
@@ -11,7 +12,8 @@ export const view = ( state, actions ) =>
 
 <Switch>    
     <Route path="/" render={ App } />   
-    <Route path="/page" render={ Page } />       
+    <Route path="/home" render={ Home } /> 
+    <Route path="/message" render={ Message } />        
   </Switch>
 
 </div>

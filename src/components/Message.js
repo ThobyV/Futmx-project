@@ -2,14 +2,10 @@ import { h } from 'hyperapp'
 
 import { Link, Route, location, Switch } from "@hyperapp/router"
 
-export const HelloWorld =  ({message}) => 
+export const Message =  () => (state, actions) =>
 
 <div>
 
- <h1> {message} </h1>
-
- <br/>
-
- <Link to="/page"> Click </Link>
+<i><b> your Message has been sent! thank you</b></i>
 
 </div>

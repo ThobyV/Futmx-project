@@ -1,14 +1,14 @@
 import { h } from 'hyperapp'
 import { Link, Route, location, Switch } from "@hyperapp/router"
 
-import { HelloWorld } from '../../components/HelloWorld'
+import { Auth } from '../../components/Auth'
 
 
 export const App = () => ( state, actions ) =>
 
 <div>
 
-<HelloWorld message ="Welcome to Hyperapp-Rollup-Babel" />
+<Auth />
 
 </div>
  
