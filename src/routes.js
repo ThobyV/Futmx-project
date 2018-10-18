@@ -11,9 +11,10 @@ export const view = ( state, actions ) =>
 <div>
 
 <Switch>    
-    <Route path="thobyv.github.io/Futmx-project/" render={ App } />   
-    <Route path="thobyv.github.io/Futmx-project/home" render={ Home } /> 
-    <Route path="thobyv.github.io/Futmx-project/message" render={ Message } />        
+    <Route path="/Futmx-project/" render={ App } />   
+    <Route path="/Futmx-project/home" render={ Home } /> 
+    <Route path="/Futmx-project/message" render={ Message } />        
   </Switch>
 
 </div>
+
