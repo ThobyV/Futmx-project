@@ -20,6 +20,6 @@ export const Auth =  () => (state, actions) =>
       />
       <br />
 
-        <Link to="/home"> <div class="btn">log in</div> </Link>
+        <Link to="/Futmx-project/home"> <div class="btn">log in</div> </Link>
 
 </div>

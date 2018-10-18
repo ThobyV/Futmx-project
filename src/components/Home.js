@@ -11,6 +11,6 @@ export const Home =  () => (state, actions) =>
 <form>
 <textarea name="message" rows="10" cols="30" class="form-field__textarea">Please type your message eg (FUTMinna)</textarea>
 </form>
-        <Link to="/message"> <div class="btn">submit</div> </Link>
+        <Link to="/Futmx-project/message"> <div class="btn">submit</div> </Link>
 
 </div>
