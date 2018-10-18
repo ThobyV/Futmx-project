@@ -8,7 +8,7 @@ export const App = () => ( state, actions ) =>
 
 <div>
 
-<Auth />
+<Auth/>
 
 </div>
  
